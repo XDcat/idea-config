@@ -1,0 +1,8 @@
+<templateSet group="iSwing">
+  <template name="framemain" value="package com.xd.swing;&#10;&#10;import javax.swing.*;&#10;import java.awt.*;&#10;&#10;public class $name$Frame extends JFrame {&#10;    public static void main(String[] args) {&#10;        EventQueue.invokeLater(() -&gt; {&#10;            JFrame iframe = new $name$Frame();&#10;            iframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#10;            iframe.setVisible(true);&#10;        });&#10;    }&#10;&#10;    public $name$Frame() {&#10;        &#10;    }&#10;}&#10;" description="Frame的main" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
