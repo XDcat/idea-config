@@ -2499,6 +2499,11 @@
                       <FeaturePluginData displayName="Nodeunit" pluginName="Node.js" pluginId="NodeJS" />
                     </value>
                   </entry>
+                  <entry key="PIT">
+                    <value>
+                      <FeaturePluginData displayName="PIT Runner" pluginName="PIT mutation testing Idea plugin" pluginId="PIT mutation testing Idea plugin" />
+                    </value>
+                  </entry>
                   <entry key="QuarkusRunConfigurationType">
                     <value>
                       <FeaturePluginData displayName="Quarkus" pluginName="Quarkus" pluginId="com.intellij.quarkus" />
